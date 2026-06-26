@@ -212,22 +212,12 @@ Navigate to your repository → **Settings** → **Webhooks** → **Add webhook*
 
 ## Screenshots
 
-<!-- 
-  TODO: Add screenshots here
-  
-  Suggested screenshots:
-  - n8n workflow editor showing all 4 connected nodes
-  - Discord channel with multiple notification embeds
-  - GitHub webhook configuration page
-  - n8n environment variable settings
--->
-
-| Area | Screenshot |
-|------|-----------|
-| Workflow Editor | *Add screenshot of n8n editor* |
-| Discord Notification | *Add screenshot of embed in Discord* |
-| GitHub Webhook Config | *Add screenshot of GitHub settings* |
-| Environment Variables | *Add screenshot of n8n env vars* |
+| # | Area | Screenshot |
+|---|------|------------|
+| 1 | Workflow Editor | `assets/screenshots/workflow-editor.png` |
+| 2 | Discord Notification | `assets/screenshots/discord-embed.png` |
+| 3 | GitHub Webhook Config | `assets/screenshots/github-webhook.png` |
+| 4 | Environment Variables | `assets/screenshots/n8n-env.png` |
 
 ---
 
