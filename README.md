@@ -261,7 +261,6 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 <div align="center">
   <p>
     Built with <a href="https://n8n.io">n8n</a> &bull;
-    Maintained by <a href="https://github.com/yourusername">@yourusername</a>
   </p>
   <p>
     <a href="#">Back to top</a>
