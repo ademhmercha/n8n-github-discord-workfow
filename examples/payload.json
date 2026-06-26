@@ -1,0 +1,137 @@
+{
+  "ref": "refs/heads/main",
+  "before": "abc123def456ghi789jkl012mno345pqr678stu9",
+  "after": "9uts876rqp543onm210lkj987hgf654fed321cba0",
+  "repository": {
+    "id": 987654321,
+    "node_id": "R_kgDOExample",
+    "name": "my-awesome-project",
+    "full_name": "johndoe/my-awesome-project",
+    "private": false,
+    "owner": {
+      "name": "johndoe",
+      "email": "johndoe@example.com",
+      "login": "johndoe",
+      "id": 12345678,
+      "node_id": "MDQ6VXNlcjEyMzQ1Njc4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12345678?v=4",
+      "url": "https://api.github.com/users/johndoe",
+      "html_url": "https://github.com/johndoe",
+      "type": "User"
+    },
+    "html_url": "https://github.com/johndoe/my-awesome-project",
+    "description": "A microservice for processing real-time analytics data",
+    "fork": false,
+    "url": "https://api.github.com/repos/johndoe/my-awesome-project",
+    "created_at": 1700000000,
+    "updated_at": 1712345678,
+    "pushed_at": 1712345678,
+    "default_branch": "main",
+    "language": "TypeScript",
+    "visibility": "public",
+    "watchers_count": 42,
+    "stargazers_count": 128,
+    "forks_count": 17,
+    "open_issues_count": 3
+  },
+  "pusher": {
+    "name": "johndoe",
+    "email": "johndoe@example.com"
+  },
+  "sender": {
+    "login": "johndoe",
+    "id": 12345678,
+    "avatar_url": "https://avatars.githubusercontent.com/u/12345678?v=4",
+    "html_url": "https://github.com/johndoe"
+  },
+  "commits": [
+    {
+      "id": "9uts876rqp543onm210lkj987hgf654fed321cba0",
+      "tree_id": "treeid78901234567890abcdef1234567890abcde",
+      "distinct": true,
+      "message": "feat(api): add rate limiting middleware for GraphQL endpoint",
+      "timestamp": "2026-06-26T11:30:00+00:00",
+      "url": "https://github.com/johndoe/my-awesome-project/commit/9uts876rqp543onm210lkj987hgf654fed321cba0",
+      "author": {
+        "name": "John Doe",
+        "email": "johndoe@example.com",
+        "username": "johndoe"
+      },
+      "committer": {
+        "name": "John Doe",
+        "email": "johndoe@example.com",
+        "username": "johndoe"
+      },
+      "added": [
+        "src/middleware/rateLimiter.ts",
+        "src/config/rateLimit.ts"
+      ],
+      "removed": [],
+      "modified": [
+        "src/graphql/resolvers.ts",
+        "package.json"
+      ]
+    },
+    {
+      "id": "8fge765qpo432nml109kji876hgf543edc219ba",
+      "tree_id": "treeid1234567890abcdef1234567890abcdef1234",
+      "distinct": true,
+      "message": "fix(database): resolve connection pool exhaustion under load",
+      "timestamp": "2026-06-26T11:15:00+00:00",
+      "url": "https://github.com/johndoe/my-awesome-project/commit/8fge765qpo432nml109kji876hgf543edc219ba",
+      "author": {
+        "name": "Jane Smith",
+        "email": "janesmith@example.com",
+        "username": "janesmith"
+      },
+      "committer": {
+        "name": "Jane Smith",
+        "email": "janesmith@example.com",
+        "username": "janesmith"
+      },
+      "added": [],
+      "removed": [],
+      "modified": [
+        "src/database/connection.ts",
+        "src/database/pool.ts"
+      ]
+    },
+    {
+      "id": "7efd654pon321mlk098jih765gfe432dcb108a9",
+      "tree_id": "treeidabcdef1234567890abcdef1234567890abcd",
+      "distinct": true,
+      "message": "chore(deps): upgrade axios to 1.7.2 and express to 4.19.0",
+      "timestamp": "2026-06-26T10:45:00+00:00",
+      "url": "https://github.com/johndoe/my-awesome-project/commit/7efd654pon321mlk098jih765gfe432dcb108a9",
+      "author": {
+        "name": "Dev Bot",
+        "email": "bot@example.com",
+        "username": "devbot"
+      },
+      "committer": {
+        "name": "Dev Bot",
+        "email": "bot@example.com",
+        "username": "devbot"
+      },
+      "added": [],
+      "removed": [
+        "yarn.lock"
+      ],
+      "modified": [
+        "package.json",
+        "package-lock.json"
+      ]
+    }
+  ],
+  "head_commit": {
+    "id": "9uts876rqp543onm210lkj987hgf654fed321cba0",
+    "message": "feat(api): add rate limiting middleware for GraphQL endpoint",
+    "timestamp": "2026-06-26T11:30:00+00:00",
+    "url": "https://github.com/johndoe/my-awesome-project/commit/9uts876rqp543onm210lkj987hgf654fed321cba0",
+    "author": {
+      "name": "John Doe",
+      "email": "johndoe@example.com",
+      "username": "johndoe"
+    }
+  }
+}
