@@ -214,10 +214,10 @@ Navigate to your repository → **Settings** → **Webhooks** → **Add webhook*
 
 | # | Area | Screenshot |
 |---|------|------------|
-| 1 | Workflow Editor | `assets/screenshots/workflow-editor.png` |
-| 2 | Discord Notification | `assets/screenshots/discord-embed.png` |
-| 3 | GitHub Webhook Config | `assets/screenshots/github-webhook.png` |
-| 4 | Environment Variables | `assets/screenshots/n8n-env.png` |
+| 1 | Workflow Editor | ![](assets/screenshots/workflow-editor.png) |
+| 2 | Discord Notification | ![](assets/screenshots/discord-embed.png) |
+| 3 | GitHub Webhook Config | ![](assets/screenshots/github-webhook.png) |
+| 4 | Environment Variables | — |
 
 ---
 
