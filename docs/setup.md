@@ -78,28 +78,28 @@ if (event === 'push') {
     : '';
 
   embeds.push({
-    title: `🚀 [${repo}] New Push to ${branch}`,
+    title: `[${repo}] New Push to ${branch}`,
     url: `https://github.com/${repo}/commits/${branch}`,
     color: 0x2ea043,
     description: description + totalCommits,
     fields: [
       {
-        name: '📦 Repository',
+        name: 'Repository',
         value: `[${repo}](https://github.com/${repo})`,
         inline: true
       },
       {
-        name: '🌿 Branch',
+        name: 'Branch',
         value: `\`${branch}\``,
         inline: true
       },
       {
-        name: '📝 Commits',
+        name: 'Commits',
         value: `${commitCount}`,
         inline: true
       },
       {
-        name: '👤 Author',
+        name: 'Author',
         value: pusher,
         inline: true
       }
@@ -124,23 +124,23 @@ if (event === 'pull_request') {
   switch (action) {
     case 'opened':
       color = 0x2ea043;
-      actionEmoji = '📗';
+      actionEmoji = '';
       break;
     case 'closed':
       color = pr.merged ? 0x8250df : 0xcf222e;
-      actionEmoji = pr.merged ? '🎉' : '📕';
+      actionEmoji = '';
       break;
     case 'reopened':
       color = 0x2ea043;
-      actionEmoji = '📗';
+      actionEmoji = '';
       break;
     case 'synchronize':
       color = 0xe3b341;
-      actionEmoji = '🔄';
+      actionEmoji = '';
       break;
     default:
       color = 0x6e7681;
-      actionEmoji = 'ℹ️';
+      actionEmoji = '';
   }
 
   embeds.push({
@@ -150,32 +150,32 @@ if (event === 'pull_request') {
     description: `### [${pr.title}](${pr.html_url})`,
     fields: [
       {
-        name: '📦 Repository',
+        name: 'Repository',
         value: `[${repo}](https://github.com/${repo})`,
         inline: true
       },
       {
-        name: '🔀 PR Number',
+        name: 'PR Number',
         value: `#${pr.number}`,
         inline: true
       },
       {
-        name: '📋 Status',
+        name: 'Status',
         value: pr.merged ? 'Merged' : pr.state,
         inline: true
       },
       {
-        name: '👤 Author',
+        name: 'Author',
         value: pr.user.login,
         inline: true
       },
       {
-        name: '🌿 Base',
+        name: 'Base',
         value: `\`${pr.base.ref}\``,
         inline: true
       },
       {
-        name: '🔀 Head',
+        name: 'Head',
         value: `\`${pr.head.ref}\``,
         inline: true
       }
@@ -252,9 +252,9 @@ If using n8n Cloud, your instance already has a public URL.
 | **Secret** | Leave blank (optional but recommended) |
 | **SSL verification** | Enable (or disable for testing with ngrok) |
 | **Which events** | Select **Let me select individual events** |
-| - Push | ✅ |
-| - Pull requests | ✅ |
-| **Active** | ✅ |
+| - Push | Yes |
+| - Pull requests | Yes |
+| **Active** | Yes |
 
 4. Click **Add webhook**
 

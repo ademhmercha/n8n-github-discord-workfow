@@ -13,7 +13,7 @@ flowchart LR
     A["GitHub<br/>Repository"] -->|"HTTP POST<br/>JSON Payload"| B["1. Webhook<br/>Receiver"]
     B -->|"Raw Event<br/>+ Headers"| C["2. Event Filter<br/>(IF Node)"]
     C -->|"push / pull_request"| D["3. Payload Parser<br/>(Code Node)"]
-    C -->|"Other Events"| E["❌ Discarded"]
+    C -->|"Other Events"| E["Discarded"]
     D -->|"Discord Embed<br/>Object"| F["4. HTTP Request<br/>(Discord API)"]
     F -->|"POST JSON"| G["Discord<br/>Channel"]
 ```

@@ -115,7 +115,7 @@ Below is a realistic example of what a push notification looks like in Discord:
 ```
 
 ┌─────────────────────────────────────────────────────────┐
-│ 🚀 [johndoe/my-awesome-project] New Push to main       │
+│ [johndoe/my-awesome-project] New Push to main       │
 │                                                         │
 │ [`9uts876`](https://github.com/johndoe/my-awesome-     │
 │ project/commit/9uts876...) feat(api): add rate limiting │
@@ -129,7 +129,7 @@ Below is a realistic example of what a push notification looks like in Discord:
 │ project/commit/7efd654...) chore(deps): upgrade axios  │
 │ to 1.7.2 and express to 4.19.0                          │
 │                                                         │
-│ 📦 Repository  │ 🌿 Branch   │ 📝 Commits │ 👤 Author │
+│ Repository  │ Branch   │ Commits │ Author │
 │ johndoe/       │ `main`      │ 3          │ johndoe   │
 │ my-awesome-    │             │            │            │
 │ project        │             │            │            │
@@ -144,17 +144,17 @@ For pull request events:
 ```
 
 ┌─────────────────────────────────────────────────────────┐
-│ 🎉 [johndoe/my-awesome-project] Pull Request Merged    │
+│ [johndoe/my-awesome-project] Pull Request Merged    │
 │                                                         │
 │ ### [Add user authentication middleware](https://...pr/1│
 │ 42)                                                      │
 │                                                         │
-│ 📦 Repository   │ 🔀 PR Number │ 📋 Status │ 👤 Author│
+│ Repository   │ PR Number │ Status │ Author│
 │ johndoe/        │ #142         │ Merged    │ janesmith│
 │ my-awesome-     │              │           │           │
 │ project         │              │           │           │
 │                                                         │
-│ 🌿 Base `main`  │ 🔀 Head `feat/auth-middleware`       │
+│ Base `main`  │ Head `feat/auth-middleware`       │
 │                                                         │
 │ GitHub Discord Notification Bot            Jun 26, 2026 │
 └─────────────────────────────────────────────────────────┘
@@ -202,9 +202,9 @@ Navigate to your repository → **Settings** → **Webhooks** → **Add webhook*
 | **Content type** | `application/json` | Required for proper payload parsing |
 | **Secret** | *(optional)* | Add a secret token for HMAC verification |
 | **SSL verification** | **Enable** | Disable only for local testing with ngrok |
-| **Events — Push** | ✅ | Triggers on `git push` |
-| **Events — Pull requests** | ✅ | Triggers on `opened`, `closed`, `reopened`, `synchronize` |
-| **Active** | ✅ | Must be checked to receive deliveries |
+| **Events — Push** | Yes | Triggers on `git push` |
+| **Events — Pull requests** | Yes | Triggers on `opened`, `closed`, `reopened`, `synchronize` |
+| **Active** | Yes | Must be checked to receive deliveries |
 
 > **Tip**: After saving, scroll down to **Recent Deliveries** and look for a green checkmark to confirm GitHub can reach your n8n instance.
 
